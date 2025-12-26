@@ -64,4 +64,82 @@ footer {
     text-align: center;
     padding: 20px 0;
 }
+@media (max-width: 992px) {
+    section {
+        padding: 40px 30px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .hero-content h2 {
+        font-size: 42px;
+        text-align: center;
+    }
+
+    nav ul li a {
+        margin-left: 15px;
+    }
+}
+@media (max-width: 768px) {
+
+    header {
+        padding: 10px 20px;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    nav ul li a {
+        margin-left: 0;
+        font-size: 18px;
+    }
+
+    #hero {
+        height: auto;
+        padding: 100px 20px;
+        text-align: center;
+    }
+
+    .hero-content h2 {
+        font-size: 35px;
+    }
+
+    section {
+        padding: 30px 20px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    h1 {
+        font-size: 26px;
+    }
+
+    .hero-content h2 {
+        font-size: 28px;
+    }
+
+    body {
+        font-size: 15px;
+    }
+
+    footer {
+        font-size: 14px;
+        padding: 15px;
+    }
+}
+
 
