@@ -59,8 +59,8 @@ nav ul li a {
     font-size: larger;
 }
 footer {
-    background: #333;
-    color: #fff;
+    background: black;
+    color: white;
     text-align: center;
-    padding: 20px 0;
+    padding: 20px;
 }
