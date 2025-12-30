@@ -58,9 +58,4 @@ nav ul li a {
 #About,#Skills,#Contact,#Education,#Project{
     font-size: larger;
 }
-footer {
-    background: black;
-    color: white;
-    text-align: center;
-    padding: 20px;
-}
+
